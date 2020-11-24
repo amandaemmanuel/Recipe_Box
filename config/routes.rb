@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :recipes
+
+  #set recipes controller's index action to the root of the website
+  root "recipes#index"
 end
