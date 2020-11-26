@@ -1,24 +1,11 @@
-# README
+This  is a recipe box Rails App to store recipes with pretty pictures, ingredient lists and directions.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This app uses HAML
 
-Things you may want to cover:
+Gems include:
+* haml
+* Paperclip -- for image upload and details
+* Cocoon -- for nested forms
+* Devise -- for account sign in/out
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The Cocoon gem didn't work "out of the box" with Rails 6 (since Rails6 doesn't come with the same javascript details as previous versions). I implemented a fix from this blog post: https://millarian.com/rails/adding-the-cocoon-gem-to-rails-6-with-webpacker/

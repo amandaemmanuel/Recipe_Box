@@ -15,6 +15,7 @@ gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'paperclip', '~> 6.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.15'
+gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
