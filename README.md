@@ -1,4 +1,4 @@
-This  is a recipe box Rails App to store recipes with pretty pictures, ingredient lists and directions.
+This  is a recipe box Rails App to store recipes with pretty pictures, ingredient lists and directions. Customization: Auto-generates a meal plan of 3 recipes
 
 * This app uses HAML
 
