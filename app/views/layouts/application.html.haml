@@ -9,11 +9,12 @@
 %body
   %nav.navbar.navbar-default
     .container 
-      .navbar-brand= link_to "Recipe Box", root_url
+      .navbar-brand= link_to "Ma Recipeeeez", root_url
 
       - if user_signed_in?
         %ul.nav.navbar-nav.navbar-right
           %li= link_to "+ New Recipe", new_recipe_path
+          %li= link_to "Meal Plan", meal_plan_path
           %li= link_to "Sign Out", destroy_user_session_path, method: :delete
       - else
         %ul.nav.navbar-nav.navbar-right

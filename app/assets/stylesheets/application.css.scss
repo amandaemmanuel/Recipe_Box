@@ -120,7 +120,19 @@ body {
 	}
 }
 
-#ingredients, #directions {
+#ingredients {
+	margin-bottom: 50px;
+	ul, ol {
+		padding-left: 18px;
+		list-style: none;
+		li {
+			padding: 1em 0;
+			border-bottom: 1px solid #EAEAEA;
+		}
+	}
+}
+
+#directions {
 	margin-bottom: 50px;
 	ul, ol {
 		padding-left: 18px;
